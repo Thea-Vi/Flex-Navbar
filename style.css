@@ -1,0 +1,46 @@
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: darkslategrey;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;
+
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-title{
+    margin-left: 50px;
+    
+
+}
+.active {
+    font-weight: 700;
+}
+.btn{
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px;
+    width: 100px;
+    height: 35px;
+
+
+}
